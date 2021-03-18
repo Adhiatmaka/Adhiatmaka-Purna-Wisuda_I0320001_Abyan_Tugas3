@@ -1,16 +1,12 @@
-# Data diri hobi, sosmed, lagu kesukaan, dan makanan kesukaan
-dict = {'Nama':'Adhiatmaka','Hobi1':'Basket','Hobi2':'Futsal','Hobi3':'Main game', 'Hobi4': 'Mancing',
-        'Sosmed1':'ig:@adhiatmaka','Sosmed2':'ig2:@adhiyo','Sosmed3':'line:@adhiatmaka_',
-        'Sosmed4':'twitter:@adhiap','Lagu1':'Hope','Lagu2':'Mood','Lagu3':'Robbery',
-        'Lagu4': 'Gods Plan' ,'Makanan1':'Nasi Goreng','Makanan2':'Indomie Aceh','Makanan3':'Mie Ayam',
-        'Makanan4': 'Sate Kambing'}
+dict = {'Nama':'Adhiatmaka','Hobi':'Basket','Hobii':'Futsal','Hobiii':'Main game', 'Hobiiii': 'Mancing',
+        'Sosmed':'ig:@adhiatmaka','Sosmedd':'igg:@adhiyo','Sosmeddd':'line:@adhiatmaka_',
+        'Sosmedddd':'twit:@adhiap','Lagu':'Hope','Laguu':'Mood','Laguuu':'Robbery','Laguuuu': 'Gods Plan' ,
+        'Makanan':'Nasi Goreng','Makanann':'Indomie Aceh','Makanannn':'Mie Ayam','Makanannnn': 'Sate Kambing'}
 
-# Mengubah salah satu hobi dan sosmed, hapus 2 makanan, dan tambah 1 hobi
-dict['Hobi4'] = 'Memasak'
-dict['Sosmed2'] = 'tiktok : @adhikaliye'
-del dict['Makanan2']
-del dict['Makanan4']
-dict['Hobi5'] = 'Riding'
+dict['Hobiiii'] = 'Memasak'
+dict['Sosmedd'] = 'tiktok : @adhikaliye'
+del dict['Makanann']
+del dict['Makanannnn']
+dict['Hobiiiii'] = 'Riding'
 
-# Menampilkan dictionary
 print (dict)
